@@ -1,0 +1,33 @@
+import configs.arc_config_core as c
+
+config = c.Config(
+    alias="sample_config",
+    inr_seed=-1,
+    dec_seed=-1,
+    inr_type=c.InrTypeEnum.RELPOS,
+    relpos_normalise=True,
+    latent_dim=32,
+    num_latents=0.05,
+    num_neighbours=4,
+    dist_function=c.DistFuncEnum.SUMTO1_NONLINEAR,
+    latent_init_distr=(c.LatentInitEnum.UNIFORM, {"a": -0.0001, "b": 0.0001}),
+    harmonics_method=(
+        c.HarmonicsMethodEnum.EXP,
+        {"start": 0.125, "end": 4096, "latent_dim": 32},
+    ),
+    harmonics_function=c.HarmonicsFuncEnum.COS,
+    latent_position_init=(c.LatentPosInitEnum.GRADIENT,),
+    dec_share=True,
+    dec_shared_at_step=500,
+    dec_type=c.DecTypeEnum.RELU,
+    dec_layers=["in", 1.0, "out"],
+    out_dim=3,
+    img_dataset=(c.DatasetEnum.CIFAR, {"root_dir": "cifar10"}),
+    img_signal_transforms=[],
+    coord_subsampler=(c.SampleEnum.SUB, {"num_samples": 0.25, "pooled": True}),
+    num_steps=1000,
+    save_intermittently_at=[500],
+    dec_optimiser=(c.OptimEnum.ADAM, {"lr": 0.005}),
+    enc_optimiser=(c.OptimEnum.ADAM, {"lr": 0.005}),
+    num_repeats=20,
+)

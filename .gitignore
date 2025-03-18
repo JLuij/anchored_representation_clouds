@@ -1,0 +1,26 @@
+.git
+.venv
+
+# UV
+uv.lock
+
+# Compilation
+*.pyc
+__pycache__
+
+# Logging
+wandb
+*.pkl
+*.pickle
+*.pt
+
+# Jobs
+*.out
+*.sbatch
+
+# Environment variables
+.env
+
+# Local things
+*.ipynb
+*.png
