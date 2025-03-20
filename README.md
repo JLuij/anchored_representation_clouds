@@ -28,7 +28,7 @@ Joost Luijmes, Alexander Gielisse, Roman Knyazhitskiy, Jan van Gemert
 
 
 ## Overview
-Official implementation of the paper ***ARC: Anchored Representation Clouds for High-Resolution INR Classification*** (ICLR 2025 Workshop Weight Space Learning).
+[ [ArXiv](https://arxiv.org/abs/2503.15156) ] Official implementation of the paper ***ARC: Anchored Representation Clouds for High-Resolution INR Classification*** (ICLR 2025 Workshop Weight Space Learning).
 
 By far, the most ergonomic way of using this code is shown in the `notebooks` folder.
 
