@@ -3,7 +3,7 @@
 <div align="center">
 <h1>ARC: Anchored Representation Clouds for High-Resolution INR Classification</h1>
 
-<a href="https://arxiv.org/abs/TODO"><img src="https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2503.15156"><img src="https://img.shields.io/badge/arXiv-2503.15156-b31b1b.svg" alt="arXiv"></a>
 <a href="https://iclr.cc/Conferences/2025"><img src="https://img.shields.io/badge/ICLR-2025-blue" alt="Conference"></a>
 
 **[Delft University of Technology, Computer Vision Lab](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/computer-vision-lab)**
